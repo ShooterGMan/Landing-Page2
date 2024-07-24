@@ -1,0 +1,147 @@
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* first two images hover */
+/* Main container */
+/*.overlay-image {
+  position: relative;
+  width: 400px;
+}*/
+
+/* Original image */
+/*.overlay-image .image {
+  display: block;
+  width: 400px;
+  height: auto;
+}*/
+
+/********* Overlay on hover *******/
+/* New overlay on hover */
+/*.overlay-image .hover {
+  position: absolute;
+  top: 0;
+  padding-top: 118px;
+  height:400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+}*/
+
+/* New overlay appearance on hover */
+/*.overlay-image:hover .hover {	
+  opacity: 1;
+}*/
+body{
+    font-family: Sequel, sans-serif;
+    background-color: black; 
+    color: ghostwhite;
+    transition: .8s ease;
+}
+
+#two h1 {
+    font-weight: 800;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 9vw;
+}
+
+.can-header{
+    font-weight: 600;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 6vw;
+    color: whitesmoke;
+    padding-top: 150px;
+}
+
+.cardTop {
+    height:600px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.cardTop .img-top1 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height:600px;
+    width: 400px;
+    opacity: 0;
+    transition: .8s ease;
+    border-radius: 5px;
+}
+.cardTop:hover .img-top1 {
+    display: inline;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    backface-visibility: visible;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.card .img-top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+    transition: .8s ease;
+    border-radius: 5px;
+}
+.card:hover .img-top {
+    display: inline;
+    opacity: 0;
+    border-radius: 5px;
+
+}
+
+/* 2nd row */
+/*.second-row{
+	
+	position: relative;
+	padding-top: 150px;
+	
+}*/
+/*@charset "utf-8";*/
+
+/* CSS Document */
+/*div {	
+    position:relative;
+    display:inline-block;
+}*/
+.changeRedColor{
+    background:rgba(255, 0, 0, 0.5);
+    transition: .8s ease;
+}
+.changeGreenColor{
+    background:rgba(92, 130, 69, 0.5);
+    transition: .8s ease;
+}
+#linkedin{
+	position: relative;
+	display: inline-block;
+}
+
+#phone{
+	position: relative;
+	display: inline-block;
+	
+}
+
+#email{
+	position: relative;
+	display: inline-block;
+}
