@@ -1,0 +1,3 @@
+A custom website made by myself (Gaurav Khanna). I used no templates as I wanted to start from the scratch with bare HTML, CSS and JS. It doesn't look as good as the website with templates, but I believe this is the part of a learning curve and getting things done within a time limit.
+
+The inspiration came from a number of portfolio websites I have seem during the design of this one. I especially like the big character font at the start of the page giving it a vivid look.
